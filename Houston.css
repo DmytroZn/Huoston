@@ -2,10 +2,8 @@
 body{
     width: 70%;
     margin:0 auto;
-    
-    
+  }
 
-    }
   h1,h2,h3{
     font-family: arial;
     padding-top: 1.5em;
@@ -59,6 +57,7 @@ body{
 
   .panel li {
     display: inline;
+    
   }
 
   .panel a {
@@ -74,6 +73,11 @@ body{
     padding: 10px 20px;
     background-color: lavender;
     border-bottom: 5px solid #5757a0;
+
+  }
+
+  .panel :hover{
+    background: green;
   }
 
 
